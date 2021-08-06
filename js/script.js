@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    if(confirm("이 웹사이트는 1920x1080 사이즈 및 Chrome에 최적화 되어있고 상업적 목적이 아닌 개인 포트폴리오용으로 제작 되었음을 알립니다.")){
+        alert("찾아와주셔서 감사합니다.");
+    }
+    
     $('.banner').click(function(){
         $('.banner_cont').show()
         $('.photoshop_cont').hide()
@@ -48,15 +52,19 @@ $(document).ready(function(){
     $('.close-cont').click(function(){
         $('.slick-cont').fadeOut()
     })
+
     // 스크롤 페이지 fadein
-    // $(window).scroll(function(){
-    //     $('section').each(function(i){
+    // $(window).scroll( function(){
+    //     $('section').each( function(i){
+            
     //         var bottom_of_element = $(this).offset().top + $(this).outerHeight();
     //         var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-    //         if(bottom_of_window > bottom_of_element){
-    //             $(this).animate({'opacity':'1'},500);
+            
+    //         if( bottom_of_window > bottom_of_element ){
+    //             $(this).animate({'opacity':'1','margin-left':'0px'},1000);
     //         }
-    //     });
+            
+    //     }); 
     // });
+    
 })
