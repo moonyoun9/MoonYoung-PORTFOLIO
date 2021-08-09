@@ -1,6 +1,6 @@
 $(document).ready(function(){
     if(confirm("이 웹사이트는 1920x1080 사이즈 및 Chrome에 최적화 되어있고 상업적 목적이 아닌 개인 포트폴리오용으로 제작 되었음을 알립니다.")){
-        alert("찾아와주셔서 감사합니다.");
+        alert("찾아와주셔서 감사합니다. 보다 나은 결과물을 위해 수정중입니다.");
     }
     
     $('.banner').click(function(){

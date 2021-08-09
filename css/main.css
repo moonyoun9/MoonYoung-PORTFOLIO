@@ -571,7 +571,7 @@ figure.snip1283.hover figcaption {
     width: 340px;
     height: 340px;
     float: left;
-    background-color: #222;
+    background-color: lightgrey;
     padding: 10px;
     box-sizing: border-box;
     margin-right: 10px;
@@ -597,7 +597,11 @@ figure.snip1283.hover figcaption {
     padding-top: 65px;
 }
 #section5 .tab .tab_cont .poster_cont .box:nth-child(5) img {
-    padding-top: 50px;
+    width: 72%;
+    padding-left: 40px;
+}
+#section5 .tab .tab_cont .poster_cont .box:nth-child(5) img:hover {
+    transform: scale(1.4);
 }
 /* section6-contact */
 #section6 {
